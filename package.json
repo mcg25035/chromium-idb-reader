@@ -1,0 +1,12 @@
+{
+  "name": "@c0dingbear/chromium-idb-reader",
+  "version": "0.1.0",
+  "description": "Pure-JS reader for Chromium IndexedDB LevelDB stores (the idb_cmp1 databases that level/leveldown can't open). Parses .log + .ldb SSTables, decompresses Snappy, and returns current (last-write-wins) records with their sequence numbers. Zero native dependencies.",
+  "main": "index.js",
+  "type": "commonjs",
+  "files": ["index.js", "README.md", "LICENSE"],
+  "engines": { "node": ">=16" },
+  "keywords": ["chromium", "indexeddb", "leveldb", "idb_cmp1", "snappy", "sstable", "forensics", "pure-js"],
+  "license": "MIT",
+  "author": "c0dingbear"
+}
